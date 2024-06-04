@@ -1,4 +1,4 @@
-# VBA
+# VBA Queries and Dashboard
 A data request came in explaining that as part of “the clean growth process, we currently label new transactions (from the MMR reports under new credit commitments) as clean growth or not clean growth.
 
 I’m looking to streamline this process a little – would it be possible for us to now come to your team and request a list of new accounts for 6 months, every 6 months? Using the new credit commitments means that they don’t have the facility IDs to match the DR01. 
@@ -7,9 +7,9 @@ I’ve also tried using the DR02 to see business written in the last 6 months bu
 
 To address this, I arranged a meeting with the end user and started working based on that call. I created an Excel spreadsheet that includes a welcome page, a Technical Documentation sheet, and a Version Tracking sheet for reference. This will help us track any amendments that may be needed in the future.
 
-A screenshot of the Operations page is attached.
+A screenshot of the Operations page is attached below.
 
-
+![Screenshot](Picture1.png)
 
 For this page, I created the following queries as the spreadsheet will be used on a regular basis:
 
