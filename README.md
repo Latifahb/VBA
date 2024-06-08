@@ -1,4 +1,5 @@
 # VBA Queries and Dashboard
+
 A data request came in explaining that as part of “the clean growth process, we currently label new transactions (from the MMR reports under new credit commitments) as clean growth or not clean growth.
 
 I’m looking to streamline this process a little – would it be possible for us to now come to your team and request a list of new accounts for 6 months, every 6 months? Using the new credit commitments means that they don’t have the facility IDs to match the DR01. 
@@ -138,3 +139,7 @@ Sub RefreshPivot()
 End Sub
 
 To ensure correct usage, I added an error query to alert the user if they paste the DR01 into the wrong cell. Once this is done correctly, the end user can click ‘Compare DR01s’ to see what is new or different between the two DR01s. This will provide insights into the stage of the facility ID, the number of accounts under the facility ID, the industry linked to the facility ID, the contract value, maximum liability, and the new premium amount at pricing (GBP).
+
+### Outcome
+
+This tool was successfully delivered to the end-user team in January 2024. Since then, they have only reached out once with a query about using the spreadsheet correctly. I guided them on how to resolve their issue. The tool has significantly reduced their manual labour hours by allowing them to efficiently compare DR01 datasets from previous years.
